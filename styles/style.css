@@ -246,7 +246,7 @@
 }
 #subscribe-container form input{
     flex-grow: 1;
-    outline: none;
+    border: none;
     border-radius: 3px;
     padding: 10px;
     font-size: 20px;
