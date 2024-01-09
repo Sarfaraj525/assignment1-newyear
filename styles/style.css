@@ -104,6 +104,10 @@
   .level{
     color: #F00;
   }
+
+  .please-join{
+    background-color: black;
+  }
   .join-button {
     padding: 15px 30px;
     font-size: 20px;
@@ -111,7 +115,7 @@
     border: none;
     text-align: center;
     border-radius: 8px;
-    background: #F00;
+    background: red;
     cursor: pointer;
   }
 
