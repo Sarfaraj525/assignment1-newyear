@@ -114,6 +114,54 @@
     background: #F00;
     cursor: pointer;
   }
+
+
+
+  .offer-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .left-content,
+  .right-content {
+    width: 30%;
+    text-align: left;
+  }
+  
+  .middle-content {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .left-content p {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .left-content h3,
+  .right-content h3 {
+    font-size: 36px;
+    margin: 10px 0;
+  }
+  
+  .left-content p,
+  .right-content p {
+    font-size: 16px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+
+
+
+
+
   .gifts-container{
     border-radius: 16px;
    margin: 50px 140px;
