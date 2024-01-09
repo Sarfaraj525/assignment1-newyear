@@ -121,11 +121,11 @@
 
 
 
-  .offer-section {
+  .coming-soon {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    /* padding: 40px; */
   }
   
   .left-content,
@@ -137,10 +137,16 @@
     color: #F00;
   }
   
-  .middle-content {
-    width: 30%;
-    text-align: center;
-  }
+
+.middle-content-img{
+    margin: 30px;
+    border-radius: 50%;
+
+} 
+.middle-content{
+    border: 5px solid red;
+    border-radius: 50%;
+}
   
   .left-content p {
     margin: 0;
@@ -203,10 +209,9 @@
     transform: scale(1.1);
   }
   #subscribe-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 50px 140px;
+    margin: 50px 140px; 
+    /* height: 600px; */
+    
     
   }
   .subscribe-content {
