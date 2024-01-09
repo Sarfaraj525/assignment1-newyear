@@ -6,7 +6,7 @@
 .banner{
     position: relative;
     text-align: center;
-    padding: 50px 140px 140px 140px; 
+    padding: 50px 140px 0px 140px; 
     box-sizing: border-box;
 }
 .banner img{
@@ -26,6 +26,7 @@
     text-align: center;
     font-weight: 900;
     line-height: 85px;
+    color: #FFF;
 }
 .banner-text h5 {
     margin: auto;
@@ -34,29 +35,25 @@
     font-weight: 400;
     line-height: normal;
 }
-
-.discount-text {
-    color: #F00;
+.offer{
+    margin: 50px 350px;
     text-align: center;
+}
+.discount-text {
+    color: #F00;   
     font-size: 88px;
     font-weight: 700;
 }
 .holiday-deals{
-    color: #F00;
-    text-align: center;
+    color: #F00;   
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
 }
 .all-catagories{
     color: #070211;
-    text-align: center;
     font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+    margin: 20px;
 }
 .img-new-year{
     width:100%;
@@ -69,6 +66,7 @@
     width: 1320px;
     height: 600px;
     color: #FFF;
+    margin: 50px 140px;
 
 }
 .text-party h1{
@@ -96,6 +94,7 @@
     height: 600px;
     position: relative;
     justify-content: center;
+    margin: 50px 140px;
   }
   .event-details h2 {
     font-size: 32px;
@@ -117,7 +116,7 @@
   }
   .gifts-container{
     border-radius: 16px;
-    padding: 0 140px 140px 140px; 
+   margin: 50px 140px;
   }
   .portfolio-text{
     margin-top: 10px;
@@ -148,13 +147,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    margin: 50px 140px;
+    
   }
   .subscribe-content {
     text-align: center;
     background-color: rgba(255, 0, 0, 0.05);
     border-radius: 16px;
-    padding: 0 140px 140px 140px;
+    padding: 30px 140px 50px 140px;
   }
   h2{
     color: #070211;
@@ -200,36 +200,31 @@
     background-color:  #070211;
     color: #fff;
     width: 1600px;
-    height: 609px;
-    padding: 20px;
+    
   }
   
   .footer-content {
     color: #FFF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
+    padding: 50px 140px;
+    
   }
   
-  .contact-info {
-    width: 40%;
+  .contact-info , .social-icons , .copyright {
+    display: flex;
+    justify-content: space-between;
+
+
+
   }
   
   .contact-info p {
     margin: 0;
     font-size: 16px;
     color:#FFF ;
-    display: flex;
+
   }
   
-  .contact-details {
-    display: flex;
-    flex-direction: column;
-    font-size: 14px;
-    
-  }
-  
+ 
   .number, .website {
     margin-top: 5px;
     color: #FFF;
@@ -237,23 +232,23 @@
   }
   
   .social-icons {
-    width: 20%;
+   
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+
   }
   
   .social-icons img {
-    width: 64px;
+   
     height: 64px;
+    margin: 10px;
   }
   
-  .copyright {
-    width: 20%;
-  }
+ 
   
   .unsubscribe {
-    width: 20%;
+   
     text-align: right;
     color: #FFF;
   }
