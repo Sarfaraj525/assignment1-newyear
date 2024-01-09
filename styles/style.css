@@ -127,7 +127,10 @@
   .left-content,
   .right-content {
     width: 30%;
-    text-align: left;
+    text-align: center;
+  }
+  .right-content h3{
+    color: #F00;
   }
   
   .middle-content {
@@ -138,6 +141,10 @@
   .left-content p {
     margin: 0;
     font-size: 18px;
+    
+  }
+  .best-offer{
+    color: #F00;
   }
   
   .left-content h3,
